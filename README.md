@@ -13,5 +13,8 @@ Programe la siguiente Funcionalidad:
 - El programa termina cuando  obtenga 20 puntos.
 
 
+### Instrucciones
 
-
+- Despues de presionar el botón generar, el aplicativo te dice la cantidad de puntos que ganaste por cada numero de 3 cifras en la 
+  notificación inferior.
+- si llegas a 20 puntos, despues de darte los puntajes de dice que __Ganaste__ y los contadores se reinicián.

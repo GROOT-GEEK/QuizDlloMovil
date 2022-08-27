@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         conectar();
         int [] vector = new int[5];
-
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,18 +69,8 @@ public class MainActivity extends AppCompatActivity {
                     btn3.setText("Puntos: " + Integer.toString(puntos));
                     btn2.setText("Intentos: " + Integer.toString(intentos) );
                 }
-
-
-
-
-
             }
-
-
         });
-
-
-
     }
 
     private void conectar() {
@@ -94,6 +83,4 @@ public class MainActivity extends AppCompatActivity {
     private void Notificaciones(String text){
         Toast.makeText(this,text,Toast.LENGTH_LONG).show();
     }
-
-
 }
